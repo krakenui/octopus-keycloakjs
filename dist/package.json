@@ -1,0 +1,47 @@
+{
+  "name": "krc-keycloak-connect",
+  "version": "1.0.3",
+  "description": "krc - keycloak UI connect",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "format": "prettier --config .prettierrc --write src/**/*",
+    "build": "npm run clean && tsc && gulp bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DuyLuongPhung/krc-mongodb.git"
+  },
+  "keywords": [
+    "krc",
+    "keycloak",
+    "reactjs",
+    "react",
+    "angular",
+    "vuejs",
+    "vue",
+    "connect",
+    "browser"
+  ],
+  "author": "Luong Phung <luonguit@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "keycloak-js": "^9.0.3"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.3",
+    "@types/mongoose": "^5.7.3",
+    "@types/node": "^13.9.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "mongoose": "^5.9.3",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "typescript": "^3.8.3"
+  }
+}
