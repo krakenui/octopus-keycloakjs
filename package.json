@@ -1,7 +1,7 @@
 {
-  "name": "krc-keycloak-connect",
-  "version": "1.0.4",
-  "description": "krc - keycloak UI connect",
+  "name": "octopus-keycloakjs",
+  "version": "1.0.0",
+  "description": "octopus - keycloak UI connect",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist/*",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DuyLuongPhung/krc-keycloak-connect.git"
+    "url": "https://github.com/krakenui/octopus-keycloakjs.git"
   },
   "keywords": [
     "krc",
