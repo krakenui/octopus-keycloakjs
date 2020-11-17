@@ -23,14 +23,6 @@ npm install --save octopus-keycloakjs
 - Define logout/disconnect
 ```
 
-## Install
-
-- Install octopus-keycloakjs
-
-```
-npm install octopus-keycloakjs
-```
-
 ## How it work
 
 #### Basic using
