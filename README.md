@@ -1,4 +1,4 @@
-# krc-keycloak-connect
+# octopus-keycloakjs
 
 ## Features
 
@@ -10,10 +10,10 @@
 
 ## Install
 
-- Install krc-keycloak-connect
+- Install octopus-keycloakjs
 
 ```
-npm install krc-keycloak-connect
+npm install octopus-keycloakjs
 ```
 
 ## How it work
@@ -23,7 +23,7 @@ npm install krc-keycloak-connect
 - init with login:
 
 ```
-import { initLogin } from "krc-keycloak-connect";
+import { initLogin } from "octopus-keycloakjs";
 
 initLogin().then(token => {}).catch(error => {});
 ```
@@ -31,7 +31,7 @@ initLogin().then(token => {}).catch(error => {});
 - logout
 
 ```
-import { logout } from "krc-keycloak-connect";
+import { logout } from "octopus-keycloakjs";
 
 logout().then(() => {}).catch(error => {});
 ```
